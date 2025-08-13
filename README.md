@@ -1,23 +1,42 @@
-# <span style="color:#026873;">The_Grid</span> | <span style="color:#F2A007;">Homelab as code</span>
+# <span style="color:#FF005C;">ThΞ_0utlΔnds</span> | <span style="color:#F2A007;">H0m€lΔb a$ C0dΞ</span>
 
-This project manages my homelab using Infrastructure as Code with **<span style="color:#026873;">Talos</span>**, **<span style="color:#04BFBF;">ArgoCD</span>**, and **<span style="color:#F2A007;">Terraform</span>**.
+Welcome to **ThΞ 0utlΔnds** — whΞrΞ thΞ Grid frΔys ⚡ at thΞ edges, rΞality glitc#es, and control i$ an illu$ion. Hom€lab as code, but rΞwrittΞn in ∆nΔrchy. Managed with **<span style="color:#026873;">TΛløs</span>**, **<span style="color:#04BFBF;">ΔrgoCD</span>**, and **<span style="color:#F2A007;">TΞrraf0rm</span>**.
 
-## <span style="color:#026873;">Bootstrap the cluster</span>
+
+>⚡ WARNING: SYSTEMS MAY OVERLΔP ⚡
+
+---
+
+## <span style="color:#FF005C;">Boot$trap thΞ ⚡ ChΔos</span>
 
 ```bash
-git clone https://github.com/Myrenic/The_Grid
-cd ./The_Grid/bootstrap/terraform/ENCOM/
+git clone -b The-Outlands https://github.com/Myrenic/The_Grid.git
+cd The_Grid/bootstrap/terraform/ENCOM/
 . ./set_proxmox_creds.sh
 
-terraform init
-terraform plan # optional
-terraform apply
+terraform init  
+terraform plan   # optional… who’s planning in chaos? ⚡ #
+terraform apply 
 
 . ./import_config.sh
 ```
 
-## <span style="color:#026873;">Tron Inspiration</span>
+> Glitches may appear. Variables might talk back. `Neon` flickers are normal.  
 
-As you might have noticed, this entire setup is heavily inspired by Tron. From the naming conventions like The_Grid and ENCOM, to the color-themed elements in the README, everything is a nod to the digital world of Tron.
+---
 
-If you’re a fan of neon grids, sleek interfaces, and the idea of a fully controlled digital environment, you’ll feel right at home here. This homelab is designed to give the same sense of control and order.
+## <span style="color:#FF005C;">Enter thΞ  Δbyss</span>
+
+Here, rules ΔrΞ suggestions. ENCOM naming i$ passé. Lines of c0de pulse ⚡ like l1ving lightning. Color ≠ color — it’s signal, warning, distortion.  
+
+```
+WARNING: ████████ ERROR ███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+UNEXPECTED ENTITY: ∆NODE#42 IS REWRITING ITSELF
+NEON STROBE DETECTED
+```
+
+Expect anomalies, feedback loops, and systems that breathe.  
+
+If you thrive in chaos, where order is just a suggestion and the Grid whispers under your fingertips, **ThΞ 0utlΔnds** is your playground. Glitch responsibly.  
+
+✨ Sparks Engaged, expect thΞ unexpectΞd. ⚡
